@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.yjlo.yjlogre.app.MainActivity">
+
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:layout_height="0dp"
+            android:layout_weight="0.88">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/tv_word"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/tv_pronunciation"
+                android:layout_below="@+id/tv_word"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/tv_meaning"
+                android:layout_below="@+id/tv_pronunciation" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/tv_meaning"
+                android:layout_marginTop="10dp"
+                android:requiresFadingEdge="vertical"
+                android:id="@+id/sv_sentence">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/tv_sentence"
+                    android:layout_below="@+id/tv_meaning"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </ScrollView>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Next"
+                android:textSize="25sp"
+                android:textColor="#ababab"
+                android:background="@drawable/btn_default"
+                android:id="@+id/next"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+</LinearLayout>

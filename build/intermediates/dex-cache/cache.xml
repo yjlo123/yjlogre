@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Volumes/D/AndroidStudio/YJLOGRE/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1-51d8759fc117f916705f0833540766eb729732d7.jar"
+        jar="/Users/siwei/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f"/>
+    <item
+        dex="/Volumes/D/AndroidStudio/YJLOGRE/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Volumes/D/AndroidStudio/YJLOGRE/app/build/intermediates/pre-dexed/debug/classes-a5522d71adfb5952e331ec52b8aba71a166d5a92.jar"
+        jar="/Volumes/D/AndroidStudio/YJLOGRE/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="/Volumes/D/AndroidStudio/YJLOGRE/app/build/intermediates/pre-dexed/debug/gson-2.2.4-5ef4b522cb42d99a9e76515d1fcc7c8235f7aed9.jar"
+        jar="/Users/siwei/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Volumes/D/AndroidStudio/YJLOGRE/app/build/intermediates/pre-dexed/debug/classes-b2ee6c95676691baf8fc4e7d767afa53286bce02.jar"
+        jar="/Volumes/D/AndroidStudio/YJLOGRE/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

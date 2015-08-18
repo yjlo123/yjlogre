@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yjlo.yjlogre.app.MainActivity" >
+    
+    <item android:id="@+id/action_scope_1"
+        android:title="1-2000"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_scope_2"
+        android:title="2001-4000"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_scope_3"
+        android:title="4001-6000"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_scope_4"
+        android:title="6001-7513"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_scope_all"
+        android:title="1-7513"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_about"
+        android:title="About YJLO GRE"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_switch_mode"
+        android:title="Switch mode"
+        android:icon="@drawable/mode_day"
+        app:showAsAction="ifRoom" />
+</menu>

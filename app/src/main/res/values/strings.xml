@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YJLO GRE</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="developer_email">liusiwei.yjlo@gmail.com</string>
+    <string name="developer_website">www.liusiwei.com</string>
+
+    <string name="data_source">(Data from Bing Dictionary)</string>
+
+    <color name="nightModeBackgroundColor">#181818</color>
+    <color name="dayModeBackgroundColor">#FFFFFF</color>
+    <color name="gray1">#838383</color>
+</resources>

@@ -1,0 +1,45 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 19
+        versionCode 5
+        versionName '1.1.1'
+    }
+    signingConfigs {
+        release {
+            storeFile file('/Volumes/D/AndroidStudio/yjlo_key.jks')
+            storePassword 'yjlo+19920829'
+            keyAlias 'yjlo'
+            keyPassword 'yjlo+19920829'
+        }
+    }
+    buildTypes {
+        release {
+            //runProguard false
+            debuggable false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            versionNameSuffix '_DEV'
+            debuggable true
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.android.gms:play-services:4.4.52'
+}
